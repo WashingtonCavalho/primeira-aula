@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <title>Login do Yoshi</title>
 </head>
+
 <body>
-    <main class="fundo">
-        <div class="logar">
-            <h1>Login</h1>
-            <input type="text" placeholder="Nome">
-            <input type="text" placeholder="Senha">
-        </div>
-    </main>
+    <div class="login">
+        <h1>Login</h1>
+        <form action="get">
+            <input type="text" placeholder="Usuário" class="text" required>
+            <br><br>
+            <input type="password" placeholder="Senha" class="text" required>
+            <br><br>
+            <button onclick="alert('Foi feito sem Biblioteca')">
+                Entrar
+            </button>
+        </form>
+
+    </div>
 </body>
+
 </html>
