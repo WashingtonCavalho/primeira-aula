@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+input.form-control {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+input.form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
